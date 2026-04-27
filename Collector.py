@@ -113,13 +113,6 @@ def poll_touch_state():
 
     while not stop_event.is_set():
         try:
-            count = ctypes.c_uint32(0)
-            # GetPointerDeviceRects not needed; we poll active pointer IDs
-            # Use GetPointerFrameTouchInfo with pointer ID 0 to enumerate contacts
-            pti = (POINTER_TOUCH_INFO * 10)()
-            c = ctypes.c_uint32(10)
-            # GetPointerFrameTouchInfo requires a known pointerId — 
-            # instead we walk IDs 0-9 to find active contacts
             active = []
             for pid in range(10):
                 info = POINTER_TOUCH_INFO()
