@@ -6,8 +6,7 @@ import ctypes
 import ctypes.wintypes
 import pandas as pd#type:ignore
 from pynput import keyboard, mouse  # type: ignore
-
-# ── CSV file path ────────────────────────────────────────────────────────────────
+# ── CSV file path ──────────────────────────────────────────────────────────────
 CSV_FILE = "user_biometric_data.csv"
 
 ALL_COLS = [
