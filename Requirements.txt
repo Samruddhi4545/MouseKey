@@ -6,4 +6,4 @@ face-recognition #it is the high level library to identify face easily
 dlib #it is the toolkit containing ML algorithm which works as the engine for facial detection
 numpy # for numerical data
 Pillow # python image library used for opening, manipulating and saving different image file format
-pywin32 #provides access to many windows APLs and it allows python to directly interact with window os
+pywin32 #provides access to many windows APIs and it allows python to directly interact with window os
