@@ -1,2 +1,9 @@
-pandas
-pynput
+pandas #for data manipulation and analysis
+pynput #for taking inputs from keyboard, touchpad and mouse
+opencv-python #for image processing
+mediapipe # this is the google developed ML solution for tracking the body gesture,facial expression
+face-recognition #it is the high level library to identify face easily
+dlib #it is the toolkit containing ML algorithm which works as the engine for facial detection
+numpy # for numerical data
+Pillow # python image library used for opening, manipulating and saving different image file format
+pywin32 #provides access to many windows APLs and it allows python to directly interact with window os
